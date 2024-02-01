@@ -1,0 +1,16 @@
+name: GameTest
+main: com.universocraft.gametest.GameTest
+author: dani
+version: 1.0
+
+commands:
+  join:
+    description: Comando para entrar a una arena
+    permission: gametest.join
+    permission-message: No tienes permiso para utilizar este comando.
+    usage: /<command>
+  leave:
+    description: Comando para salir de una arena
+    permission: gametest.leave
+    permission-message: No tienes permiso para utilizar este comando.
+    usage: /<command>

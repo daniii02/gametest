@@ -1,0 +1,18 @@
+# Delay en segundos para iniciar
+start-delay: 10
+
+# Delay para teletransportar al terminar
+end-delay: 5
+
+# Nombre del mundo al que son teletransportados al salir de la arena
+spawn-world: world
+
+arenas:
+  arena1:
+    file: a1
+    spawnA: [ 0, 0, 0 ]
+    spawnB: [ 10, 0, 10 ]
+  arena2:
+    file: a2
+    spawnA: [ 100, 0, 55 ]
+    spawnB: [ 10, 0, 10 ]
